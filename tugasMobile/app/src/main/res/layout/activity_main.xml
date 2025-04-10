@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_launcher_background"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="welcome"
+        android:textSize="16pt" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Silakan Login Untuk Melanjutkan"
+        android:textSize="8pt" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Username"
+            android:autofillHints="Username"
+            android:paddingStart="8dp"
+            android:paddingTop="4dp"
+            android:minHeight="48dp"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:hint="Password"
+            android:autofillHints="Password"
+            android:paddingEnd="8dp"
+            android:paddingTop="4dp"
+            android:minHeight="48dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="46dp"
+            android:layout_marginTop="10dp"
+            android:text="Lupa Password?" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:textSize="20sp"
+            android:backgroundTint="@color/purple_500"/>
+
+    </LinearLayout>
+
+</LinearLayout>

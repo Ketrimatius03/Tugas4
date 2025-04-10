@@ -1,0 +1,5 @@
+<resources>
+    <style name="Theme.Tugas4" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Tambahkan warna atau kustomisasi lain jika perlu -->
+    </style>
+</resources>
